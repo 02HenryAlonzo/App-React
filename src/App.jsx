@@ -1,10 +1,11 @@
+import { StarMenu } from './components/StartMenu/StarMenu'
 import './index.css'
 
 function App() {
   
   return (
     <>
-      <h1>Hola Mundo</h1>
+      {/* <StarMenu/> */}
     </>
   )
 }
