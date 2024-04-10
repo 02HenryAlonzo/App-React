@@ -18,7 +18,7 @@ export const StarMenu = () => {
               type="text"
             />
           </div>
-          <button className="pushBtn">Nueva Entrada</button>
+          <button className="pushBtn">Nuevo Ingreso</button>
           <button className="pushBtn">Nuevo Gasto</button>
           <button className="pushBtn">Reportes</button>
           <button className="pushBtn">Configuracion</button>
