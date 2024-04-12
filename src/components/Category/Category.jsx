@@ -4,8 +4,8 @@ export const Category = () => {
   return (
     <>
       <div className="form-card">
-        <div className="container">
-          <p className="container-heading">LISTA DE CATEGORIAS</p>
+        <div className="cont">
+          <p className="cont-heading">LISTA DE CATEGORIAS</p>
           <table className="main">
             <thead className="tableHead">
               <tr>

@@ -3,9 +3,10 @@ html {
   background-color: rgb(34, 34, 34);
 }
 
-.container {
+.cont {
   display: flex;
   flex-direction: column;
+  height: fit-content;
   font-family: inherit;
   gap: 20px;
   padding: 2em;
@@ -13,7 +14,7 @@ html {
   border-radius: 20px;
 }
 
-.container-heading {
+.cont-heading {
   text-align: center;
   margin-top: 2em;
   color: #64ffda;
