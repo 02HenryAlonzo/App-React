@@ -1,6 +1,6 @@
 import React from "react";
-import { useState } from "react"
-import './InputAmount.css'
+import { useState } from "react";
+import "./InputAmount.css";
 
 export const Input = () => {
   const [monto, setMonto] = useState("");
@@ -17,8 +17,11 @@ export const Input = () => {
   return (
     <div className="ContainIput">
       <div className="container">
+        <div className="headDiv">
+          <span class="material-symbols-outlined back">arrow_back</span>{" "}
+          <span class="material-symbols-outlined back">settings</span>
+        </div>
         <h2 className="title">Entrada</h2>
-
         <div className="inputContainer">
           <label className="label">Monto</label>
           <input
@@ -29,7 +32,6 @@ export const Input = () => {
             className="input"
           />
         </div>
-
         <div className="inputContainer">
           <label className="label">Descripción</label>
           <textarea
@@ -38,6 +40,7 @@ export const Input = () => {
             className="textarea"
           />
         </div>
+        <button className="pushBtn">Confirmar monto</button>
       </div>
     </div>
   );

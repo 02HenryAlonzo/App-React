@@ -11,6 +11,7 @@ function App() {
   
   return (
     <>
+    {/* <AddCategory /> */}
       {isOpen === 'menu' && <StarMenu onNavigate={setIsOpen} />}
       {isOpen === 'input' && <Input />}
       {isOpen === 'amount' && <Amount />}
