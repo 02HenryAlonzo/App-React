@@ -1,6 +1,7 @@
+import React, { useState } from "react";
 import "./StartMenu.css";
 
-export const StarMenu = () => {
+export const StarMenu = ({ onNavigate }) => {
   return (
     <>
       <div className="form-card">
@@ -18,10 +19,10 @@ export const StarMenu = () => {
               type="text"
             />
           </div>
-          <button className="pushBtn">Nuevo Ingreso</button>
-          <button className="pushBtn">Nuevo Gasto</button>
+          <button className="pushBtn" onClick={() => onNavigate('input')}>Nuevo Ingreso</button>
+          <button className="pushBtn" onClick={() => onNavigate('amount')}>Nuevo Gasto</button>
           <button className="pushBtn">Reportes</button>
-          <button className="pushBtn">Configuracion</button>
+          <button className="pushBtn" onClick={() => onNavigate('category')}>Configuracion</button>
         </form>
       </div>
     </>
