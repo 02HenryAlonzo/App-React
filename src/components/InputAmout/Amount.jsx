@@ -16,6 +16,10 @@ export const Amount = () => {
   return (
     <div className="ContainIput">
       <div className="container">
+      <div className="headDiv">
+          <span class="material-symbols-outlined back">arrow_back</span>{" "}
+          <span class="material-symbols-outlined back">settings</span>
+        </div>
         <h2 className="title">Salida</h2>
 
         <div className="inputContainer">
@@ -29,7 +33,7 @@ export const Amount = () => {
           />
         </div>
 
-        <button className="pushBtn">Seleccionara Categoria</button>
+        <button className="pushBtn">Seleccionar Categoria</button>
 
         <div className="inputContainer">
           <label className="label">Descripción</label>
@@ -39,6 +43,8 @@ export const Amount = () => {
             className="textarea" 
           />
         </div>
+        <button className="pushBtn">Confirmar monto</button>
+
       </div>
     </div>
   );
