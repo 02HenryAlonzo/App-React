@@ -1,0 +1,128 @@
+html {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: rgb(34, 34, 34);
+}
+
+.reports-container {
+  transition: transform 0.4s, border 0.4s;
+  width: 30rem;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.reports {
+display: flex;
+flex-direction: column;
+align-self: center;
+font-family: inherit;
+gap: 20px;
+padding-inline: 2em;
+padding-bottom: 2em;
+background-color: #171717;
+border-radius: 20px;
+min-height: 550px;
+}
+
+.heading {
+text-align: center;
+margin-top: 2em;
+color: #64ffda;
+font-size: 1.2em;
+background-color: transparent;
+align-self: center;  
+}
+
+.reports-field {
+display: flex;
+flex-direction: column;
+justify-content: center;
+border-radius: 10px;
+padding: 1rem;
+border: none;
+outline: none;
+color: white;
+background-color: #171717;
+box-shadow: inset 2px 5px 10px rgb(5, 5, 5);   
+}
+
+label {
+ background: none;
+ color: #64ffda;
+ text-transform: uppercase;
+ margin-bottom: 10px;
+}
+
+.checkboxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.inputs {
+    display: flex;
+    gap: 20px;
+}
+
+.input-field {
+    cursor: pointer;
+    padding: 10px 0;
+    outline: 1px solid #64ffda;
+    border-radius: 10px;
+    background-color: transparent;
+    text-align: center;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.pushBtn {
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #64ffda;
+    font-weight: bold;
+    outline: 1px solid #64ffda;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .pushBtn:hover {
+    transition: all ease-in-out 0.3s;
+    background-color: #64ffda;
+    color: #000;
+    cursor: pointer;
+    box-shadow: 2px 5px 10px rgb(5, 5, 5);
+  }
+
+.reports-field2 {
+  border-radius: 10px;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #171717;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+  min-height: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.reports-field2 p {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #64ffda;
+}
+
+.footer p {
+    color: #64ffda; 
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-left: 35px;   
+}
