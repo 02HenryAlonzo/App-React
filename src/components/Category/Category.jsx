@@ -5,6 +5,11 @@ export const Category = () => {
     <>
       <div className="form-card">
         <div className="cont">
+        <div className="headDiv">
+          <span class="material-symbols-outlined back">arrow_back</span>{" "}
+          <span class="material-symbols-outlined back">settings</span>
+        </div>
+
           <p className="cont-heading">LISTA DE CATEGORIAS</p>
           <table className="main">
             <thead className="tableHead">
@@ -19,7 +24,7 @@ export const Category = () => {
                   <ul className="listCategories">
                     <li>Facturas Movil</li>
                     <li>Energia</li>
-                    <li>Categoria 3</li>
+                    <li>Salida</li>
                     <li>Categoria 4</li>
                     <li>Categoria 5</li>
                   </ul>

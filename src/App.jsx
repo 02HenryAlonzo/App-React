@@ -14,11 +14,12 @@ function App() {
   return (
     <>
       {/* {isOpen === 'menu' && <StarMenu onNavigate={setIsOpen} />}
+      {/* <AddCategory /> */}
+      {isOpen === 'menu' && <StarMenu onNavigate={setIsOpen} />}
       {isOpen === 'input' && <Input />}
       {isOpen === 'amount' && <Amount />}
       {isOpen === 'category' &&  <Category/>}
- */}
-      <Reports/>
+      /*<Reports/>*/
     </>
   )
 }
